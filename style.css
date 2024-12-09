@@ -1,16 +1,35 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+/* general stils */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
+:root {
+  /* text color */
+  --textBlackColor: black;
+  --textWhiteColor: white;
+  --textGrayColor: #282938;
 
-.container{
-    width: 100%;
-    max-width: 1320px;
-    margin: 0 auto;
-    padding:0 20px ;
+  /* bgcolor */
+  --bgHeaderColor: #1c1e53;
+  --bgWhiteColor: #ffffff;
+  --bgCardColor: #f4f6fc;
+  --bgButtonColor: #fcd980;
+
+  /* borderRadius */
+  --borderRadius: 5px;
 }
-main{
-    width: 100%;
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+input {
+  border: none;
 }
